@@ -1,12 +1,9 @@
 # Netlify Build Configuration
 
 [build]
-  # Build command
   command = "npm run build"
-  
-  # Directory with the build output
-  publish = "dist"
-  
+  publish = "build"
+
   # Node version to use
   [build.environment]
     NODE_VERSION = "18"
